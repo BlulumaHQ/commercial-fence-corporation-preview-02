@@ -5,7 +5,7 @@ import heroBg from '@/assets/hero-bg.jpg';
 import servicesGates from '@/assets/services-gates.jpg';
 import servicesPublicWorks from '@/assets/services-public-works.jpg';
 
-const ease = [0.25, 0.1, 0.25, 1];
+const ease = [0.25, 0.1, 0.25, 1] as const;
 
 const sourceImages = {
   chainLink: 'https://static.wixstatic.com/media/cdfdd0_1b8c45092ea6409dace6a141ab0e29eb.jpg/v1/fill/w_960,h_640,al_c,q_85,enc_avif,quality_auto/cdfdd0_1b8c45092ea6409dace6a141ab0e29eb.jpg',
